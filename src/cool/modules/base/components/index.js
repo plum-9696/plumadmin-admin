@@ -17,6 +17,7 @@ import RolePerms from "./role/perms";
 import Editor from "./editor";
 import Codemirror from "./codemirror";
 import FileGroupTree from './file-group/tree'
+import Export from './export/index'
 
 export default {
 	Avatar,
@@ -37,5 +38,6 @@ export default {
 	RolePerms,
 	Editor,
 	Codemirror,
-	FileGroupTree
+	FileGroupTree,
+	Export
 };
